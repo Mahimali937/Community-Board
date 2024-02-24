@@ -1,0 +1,44 @@
+.card {
+  margin: 30px 50px;
+  padding: 3%;
+  background-color: beige;
+  text-align: center;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+}
+
+.Card-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  width: 100%; 
+}
+
+.View {
+  display: inline-block;
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+.heading
+{
+  text-align: center;
+  font-size: 50px;
+}
+body {
+  background-color: lightblue;
+}
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+  .card {
+    margin: 20px 10px;
+  }
+}
